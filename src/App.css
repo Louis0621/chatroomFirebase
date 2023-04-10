@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#root{
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.image{
+  width: 60px;
+}
+.App{
+  width: 80%;
+}
+body{
+  background-color: rgba(23, 23, 23, 0.895);
   color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
 }
-
-.App-link {
-  color: #61dafb;
+.App-header{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header{
+  border: 1px solid white;
+  width: 500px;
+  line-height: 50px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(118, 118, 118);
+  margin: 20px;
+}
+.sign button, .delete{
+  color: rgb(255, 255, 42);
+  font-size: 1rem;
+  background-color: rgb(69, 31, 158);
+  border: 5px outset rgb(69, 31, 158);
+  cursor: pointer;
+}
+.section{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sign button:hover{
+  
+  border: 5px inset rgb(69, 31, 158);
+}
+.text{
+  resize: none;
+  border: 1px solid rgb(118, 118, 118);
+}
+.write{
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 500px;
+}
+.write textarea{
+  height: 100vh;
+  color: white;
+  background-color: black;
+}
+.localTime{
+  font-size: 0.1rem;
+  opacity: 0.5;
+  margin-left: 100px;
+}
+.information{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
 }

@@ -1,0 +1,22 @@
+[debug] [2023-04-10T06:58:20.949Z] ----------------------------------------------------------------------
+[debug] [2023-04-10T06:58:20.950Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ss348\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-04-10T06:58:20.951Z] CLI Version:   11.25.3
+[debug] [2023-04-10T06:58:20.951Z] Platform:      win32
+[debug] [2023-04-10T06:58:20.951Z] Node Version:  v18.14.0
+[debug] [2023-04-10T06:58:20.952Z] Time:          Mon Apr 10 2023 14:58:20 GMT+0800 (台北標準時間)
+[debug] [2023-04-10T06:58:20.952Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-10T06:58:20.955Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-04-10T06:58:20.989Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-10T06:58:20.989Z] > authorizing via signed-in user (ss348774832@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ss348\Desktop\projects\chatroom
+
